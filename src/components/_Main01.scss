@@ -1,0 +1,19 @@
+
+.Main01 {
+    width: 100%;
+    height: 150px;
+    background-color: #E7A5;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    ul {
+        list-style-type: circle;
+        text-align: center;
+        margin: auto;
+        li {
+            display: block;
+            margin-right: 25px;
+        }
+    }
+
+}
