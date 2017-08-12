@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One|Waiting+for+the+Sunrise');
 
 
+/* unvisited link */
+a:link {
+    color: red;
+}
 
+/* visited link */
+a:visited {
+    color: green;
+}
 
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 // @import 'reset';
 // @import 'globals';
 
@@ -26,3 +43,9 @@
 @import './components/Main01';
 @import './components/Main02';
 @import './components/Main03';
+@import './components/AboutUs';
+@import './components/LatestNews';
+@import './components/Login';
+@import './components/Testimonials';
+@import './components/Home';
+
