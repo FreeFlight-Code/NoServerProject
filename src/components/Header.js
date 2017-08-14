@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../images/logo.svg'
-import { Link } from 'react-router-dom'
+import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
+import Loginmini from './Loginmini';
+
 
 class Header extends Component {
     render() {
@@ -23,6 +25,7 @@ class Header extends Component {
                     </ul>    
 
                 </div>
+                <Loginmini />
                 
             </div>
         );

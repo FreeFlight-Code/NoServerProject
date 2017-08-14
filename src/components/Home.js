@@ -12,13 +12,14 @@ class Home extends Component
   render() {
     return (
       <div className="Home">
+            
             <Header />
             <Carousel />
             <Main01 />
             <Main02 />
             <Main03 />
             <Footer />
-          
+            
       </div>
     );
   }

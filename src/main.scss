@@ -1,25 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Sigmar+One|Waiting+for+the+Sunrise');
+@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Cinzel+Decorative|Fredoka+One|Lemonada");
 
 
-/* unvisited link */
-a:link {
-    color: red;
-}
-
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}
 // @import 'reset';
 // @import 'globals';
 
@@ -36,7 +17,7 @@ a:active {
 // @import 'mixins';
 
 // ===== COMPONENTS ===== //
-
+@import './components/Loginmini';
 @import './components/Carousel';
 @import './components/Footer';
 @import './components/Header';
@@ -48,4 +29,5 @@ a:active {
 @import './components/Login';
 @import './components/Testimonials';
 @import './components/Home';
+// @import './font-awesome-4.7.0/scss/font-awesome'
 
